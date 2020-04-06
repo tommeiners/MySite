@@ -1,0 +1,167 @@
+body{
+  margin: 0;
+  text-align: center;
+  font-family: 'Spartan', sans-serif;
+  font-size: 150%;
+}
+
+h1 {
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  font-family: 'Handlee', cursive;
+  line-height: 1;
+color: #a2d5f2;
+}
+
+h2 {
+  font-size: 2.5rem;
+  font-family: 'Spartan', sans-serif;
+  color: #a2d5f2;
+  font-weight: lighter;
+}
+
+hr{
+  background-color: none;
+  border-top: 5px dotted grey;
+  border-style: dotted none none none;
+  height: 1px;
+  width: 15%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+a{
+  color: #1564ad;
+  font-family: 'Spartan', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: black;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.meteorologist{
+  text-decoration: underline;
+}
+
+.profile{
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.profile-img{
+  margin: auto;
+  padding-top: 50px;
+}
+
+.skill-row {
+  width: 100%;
+  margin: 10px auto 100px auto;
+  text-align: left;
+  line-height: 1;
+}
+
+.attribution {
+  font-size: 10px;
+}
+
+.img-message{
+  width: 12%;
+}
+
+.img-coding{
+  width: 12%;
+}
+
+.skills {
+  margin: 10px;
+  text-align: center;
+}
+
+.classname {
+	-moz-box-shadow: 3px 4px 0px 0px #1564ad;
+	-webkit-box-shadow: 3px 4px 0px 0px #1564ad;
+	box-shadow: 3px 4px 0px 0px #1564ad;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #79bbff), color-stop(1, #378de5) );
+	background:-moz-linear-gradient( center top, #79bbff 5%, #378de5 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#79bbff', endColorstr='#378de5');
+	background-color:#79bbff;
+	-webkit-border-top-left-radius:5px;
+	-moz-border-radius-topleft:5px;
+	border-top-left-radius:5px;
+	-webkit-border-top-right-radius:5px;
+	-moz-border-radius-topright:5px;
+	border-top-right-radius:5px;
+	-webkit-border-bottom-right-radius:5px;
+	-moz-border-radius-bottomright:5px;
+	border-bottom-right-radius:5px;
+	-webkit-border-bottom-left-radius:5px;
+	-moz-border-radius-bottomleft:5px;
+	border-bottom-left-radius:5px;
+text-indent:0;
+	border:1px solid #337bc4;
+	display:inline-block;
+	color:#ffffff;
+	font-family:arial;
+	font-size:15px;
+	font-weight:bold;
+	font-style:normal;
+height:50px;
+	line-height:50px;
+width:140px;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:0px 1px 0px #528ecc;
+}
+
+.classname:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #378de5), color-stop(1, #79bbff) );
+	background:-moz-linear-gradient( center top, #378de5 5%, #79bbff 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#378de5', endColorstr='#79bbff');
+	background-color:#378de5;
+}
+
+.classname:active {
+	position:relative;
+	top:1px;
+}
+
+
+.top-container{
+  background-color: #07689F;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container{
+text-align: left;
+margin: auto 500px auto 500px;
+line-height: 1.5;
+}
+
+.bottom-container{
+text-align: center;
+background-color: #A2D5F2;
+position: relative;
+width: 100%;
+padding: 50px 0 20px;
+}
+
+.copyright{
+  color: #07689F;
+  font-size: 1rem;
+  padding: 20px 0;
+}
